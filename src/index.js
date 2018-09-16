@@ -15,7 +15,7 @@ module.exports = function makeExchange(currency) {
 
     for(var key in coins){
 
-        var cur = currency / coins[key]; // 0, 1,72, 1,8, 1,6, 3
+        var cur = currency / coins[key];
         if(Math.floor(cur) === 0){
             continue;
         } else {
